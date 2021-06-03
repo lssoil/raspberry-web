@@ -5,7 +5,7 @@ import (
 )
 
 func IndexHandler(w http.ResponseWriter, r *http.Request) {
-	w.Write([]byte("hello world"))
+	w.Write([]byte("welcome to lssoil's home"))
 }
 
 func main() {
